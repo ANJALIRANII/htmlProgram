@@ -1,0 +1,61 @@
+<html>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Name :</label></td>
+                    <td><input type="text" name="nm" id="nm" required autofocus minlength="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="add">Address :</label></td>
+                    <td><textarea name="add" id="add" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="bdate">Booking Date:</label></td>
+                    <td><input type="date" name="bdate" id="bdate" row="5" cols="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender :</label></td>
+                    <td><input type="radio" name="gender" id="male" value="male"><label for="male">male</label>
+                    <input type="radio" name="gender" id="female" value="female"><label for="female">female</label></td>
+                </tr>
+                <tr>
+                    <td> <label>Degree :</label></td>
+                    <td>
+                        <input type="RADIO" name="degee" id="BTECH" value="BTECH"><label for="BTECH">BTECH</label>
+                        <input type="radio" name="degree" id="MTECH" value="MTECH"><label for="MTECH">MTECH</label>
+                        <input type="radio" name="degree" id="MBA" value="MBA"><label for="MBA">MBA</label>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label>Skills :</label></td>
+                        <td><input type="checkbox" name="skill" id="OS" value="OS"><label for="OS">OS</label>
+                            <input type="checkbox" name="skill" id="DBMS" value="DBMS"><label for="DBMS">DBMS</label><br>
+                            <INput type="checkbox" name="skill" id="CD" value="CD"><label for="CD">CD</label>
+                             <input type="checkbox" name="skill" id="TOC" value="TOC"><label for="TOC">TOC</label>   
+                        </td>
+                  </tr>
+                        <tr>
+                            <td><label>Location :</label></td>
+                            <td><select name="place" id="place">
+                            <option value="test">--select one---</option>
+                            <option value="pune">pune</option>
+                            <option value="delhi" selected>delhi </option>
+                            <option value="kolkata">kolkata</option>
+                            <option value="katra">katra</option>
+                            </select></td>
+                        </tr>
+                       <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" name="btn" id="submit" value="submit">submit</button>             
+                            <button type="reset" name="btn" id="reset" value="reset">cancel</button>
+                    </td>
+                       </tr>
+
+                
+                
+            </table>
+        </form>
+    </body>
+</html>
